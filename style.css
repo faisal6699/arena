@@ -1,0 +1,538 @@
+@charset "utf-8"
+    
+    body{
+        font-family: 'Nunito', 'sans-serif';
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+}
+
+.home_elements{
+    background: url(profile3.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.homepage header{
+    padding: 3px 30px 0px;
+    background-color: rgba(225,225,255,0.6);
+}
+
+.homepage .hat{
+    float: left;
+    display: inline-block;
+}
+
+.homepage .titile-color{
+    text-transform: uppercase;
+    color: brown;
+    
+}
+
+.homepage .search_my{
+    float: right;
+    border: 3px #000 solid;
+}
+
+.homepage .search1{
+    border: none;
+    background-color: none;
+    width: 300px;
+    background-color: transparent;
+}
+.homepage .button1{
+    color: #fff;
+    background-color: #000;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+.homepage .nav1{
+    background-color: #f8f6fa;
+}
+
+.homepage .navbar{
+    padding: 0px;
+}
+
+.homepage .navbar-nav li{
+    z-index: 0;
+}
+.homepage .navbar-nav li a{
+    font-size: 15px;
+    padding: 15 px 30px!important;
+}
+
+.homepage .navbar-nav li a:hover{
+    border-left: 3px solid #ff4f81;
+    border-left: 3px solid #ff4f81;
+    transition: 0.5s all;
+}
+
+.homepage .navbar-light .navbar-nav .nav-bar-link{
+    color: #000;
+}
+
+
+
+
+@media(max-width:1200px){
+    .homepage .navbar-nav li{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:992px){
+    .homepage .navbar-toggler{
+        margin: 10px 0px 10px 30px;
+        background-color: #fff;
+        border-color: #ff4f81;
+    }
+    .homepage .navbar-toggler:hover, .homepage .navbar-toggler:focus{
+        background-color: #fff;
+        border-color: #ff4f81;
+    }
+    .homepage .navbar-light{
+        background-color: #ffff;
+    }
+    .homepage .navbar-nav li a{
+        text-align: center;
+        background-color: aliceblue;
+    }
+    .homepage .navbar-nav li a:hover{
+     background-color: #ff4f81;   
+    }
+    
+}
+/*end of navnar*/
+
+
+.login_main_banner{
+    background: url(profile2.jpeg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    
+} 
+
+
+
+.login_main {
+     width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+    
+    
+}
+
+
+.login_main input{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.login_main input:focus{
+    border: 1px solid #777;
+}
+
+.login_main button{
+    background: #5d8ffc;
+    color: #fff;
+    margin: 20px;
+    border: 2px solid #5d8ffc;
+    border-radius: 10px;
+    padding: 15px;
+    display: block;
+    width: 40%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.login_main button:hover{
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+}
+/*login end*/
+
+
+
+.signup_main_banner{
+    background: url(profile2.jpeg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.signup_main {
+     width: 30%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+}
+
+
+.signup_main input{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.signup_main input:focus{
+    border: 1px solid #777;
+}
+
+
+.signup_main select{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.signup_main select:focus{
+    border: 1px solid #777;
+}
+
+
+.signup_main button{
+    background: #5d8ffc;
+    color: #fff;
+    margin: 20px;
+    border: 2px solid #5d8ffc;
+    border-radius: 10px;
+    padding: 15px;
+    display: block;
+    width: 40%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.signup_main button:hover{
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+}
+/*signup end*/
+
+
+.profile_main_banner{
+    background: url(profile3.jpg) no-repeat center;
+    background-size: cover;
+    height: 90vh;
+    
+} 
+
+
+
+
+
+
+.profile_main {
+    width: 40%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+}
+
+
+.profile_main h1,h3{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.profile_main h1,h3:focus{
+    border: 1px solid #777;
+}
+
+
+.profile_main select{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.profile_main select:focus{
+    border: 1px solid #777;
+}
+
+
+.profile_main button{
+    background: #5d8ffc;
+    color: #fff;
+    margin: 20px;
+    border: 2px solid #5d8ffc;
+    border-radius: 10px;
+    padding: 15px;
+    display: block;
+    width: 40%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.profile_main button:hover{
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+}
+
+/*profile ends*/
+
+
+
+
+.upload_books_main_banner{
+    background: url(profile.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    
+} 
+
+
+.upload_books_main {
+     width: 40%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+}
+
+
+.upload_books_main .active-pink-2 input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #f48fb1;
+box-shadow: 0 1px 0 0 #f48fb1;
+}
+.upload_books_main .active-pink input[type=text] {
+border-bottom: 1px solid #f48fb1;
+box-shadow: 0 1px 0 0 #f48fb1;
+}
+.upload_books_main .select [type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #f48fb1;
+box-shadow: 0 1px 0 0 #f48fb1;
+}
+.upload_books_main .select [type=text] {
+border-bottom: 1px solid #f48fb1;
+box-shadow: 0 1px 0 0 #f48fb1;
+}
+.upload_books_main .active-purple-2 input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #ce93d8;
+box-shadow: 0 1px 0 0 #ce93d8;
+}
+.upload_books_main .active-purple input[type=text] {
+border-bottom: 1px solid #ce93d8;
+box-shadow: 0 1px 0 0 #ce93d8;
+}
+.upload_books_main .active-cyan-2 input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #4dd0e1;
+box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.upload_books_main .active-cyan input[type=text] {
+border-bottom: 1px solid #4dd0e1;
+box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+
+.upload_books_main button{
+    background: #5d8ffc;
+    color: #fff;
+    margin: 20px;
+    border: 2px solid #5d8ffc;
+    border-radius: 10px;
+    padding: 15px;
+    display: block;
+    width: 40%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.upload_books_main button:hover{
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+}
+
+/*upload books ends*/
+
+
+
+.upload_pdf_main_banner{
+    background: url(Arena1.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    
+} 
+
+
+
+
+.upload_pdf_main {
+     width: 40%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+}
+
+
+.upload_pdf_main .active-pink-2 input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #f48fb1;
+box-shadow: 0 1px 0 0 #f48fb1;
+}
+.upload_pdf_main .active-pink input[type=text] {
+border-bottom: 1px solid #f48fb1;
+box-shadow: 0 1px 0 0 #f48fb1;
+}
+.upload_pdf_main .active-purple-2 input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #ce93d8;
+box-shadow: 0 1px 0 0 #ce93d8;
+}
+.upload_pdf_main .active-purple input[type=text] {
+border-bottom: 1px solid #ce93d8;
+box-shadow: 0 1px 0 0 #ce93d8;
+}
+.upload_pdf_main .active-cyan-2 input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #4dd0e1;
+box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.upload_pdf_main .active-cyan input[type=text] {
+border-bottom: 1px solid #4dd0e1;
+box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+
+.upload_pdf_main button{
+    background: #5d8ffc;
+    color: #fff;
+    margin: 20px;
+    border: 2px solid #5d8ffc;
+    border-radius: 10px;
+    padding: 15px;
+    display: block;
+    width: 40%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.upload_pdf_main button:hover{
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+}
+
+
+
+//upload pdf ends
+
+
+
+.search_result_main {
+     width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+}
+
+
+.search_result_main{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.search_result_main input:focus{
+    border: 1px solid #777;
+}
+
+.search_result_main button{
+    background: #5d8ffc;
+    color: #fff;
+    margin: 20px;
+    border: 2px solid #5d8ffc;
+    border-radius: 10px;
+    padding: 15px;
+    display: block;
+    width: 40%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transitiom: 0.3s;
+}
+
+.search_result_main:hover{
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1090 @@
+<!doctype html>
+<html>
+
+<head>
+
+
+    <meta charset="utf-8">
+    <title>The educational Arena</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.0.0/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="woocommerce-FlexSlider-d04ac5a/demo/css/flexslider.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+</head>
+<!css end>
+
+
+<body>
+
+    <div class="homepage">
+        <div class="banner">
+            <header>
+                <div class="search_my">
+                    <form id="searchForm">
+                        <input id="searchInput" type="search" class="search1" placeholder="search for books or pdfs..">
+                        <button id="searchButton" class="button1" type="submit" onclick="searchResult()"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </header>
+            <div class="nav1">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                        <i class="fas fa-graduation-cap"><span class="titile-color">The Educational Arena </span></i>
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_pdf">Upload a PDF</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_books">Upload a Book</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#login">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#signup">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile_details">Profile</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+            <div class="home_elements">
+                <section class="jumbotron text-center">
+                    <div class="container">
+                        <h1 class="jumbotron-heading">About Educational Arena</h1>
+                        <p class="lead text-muted">It is a site for learning.it contains elements of learning from primary level to master's level.Those who are interested in learning can get their equipments here.</p>
+                        <p>
+                            <a href="https://www.youtube.com/results?search_query=10+minute+school" class="btn btn-primary my-2">secondary level</a>
+                            <a href="https://www.youtube.com/results?search_query=inter+1st+year+bangla" class="btn btn-primary my-2">Higher secondary level</a>
+                            <a href="https://www.youtube.com/results?search_query=machine+learning" class="btn btn-primary my-2">undergraduate level</a>
+                            
+                        </p>
+                    </div>
+                </section>
+                
+                
+               
+
+            </div>
+
+        
+    
+    <!homepage end>
+
+
+
+    <div class="login" id="login">
+
+
+
+        <div class="homepage">
+            <header>
+                <div class="search_my">
+                    <form id="searchForm">
+                        <input id="searchInput" type="search" class="search1" placeholder="search for books or pdfs..">
+                        <button id="searchButton" class="button1" type="submit" onclick="searchResult()"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </header>
+            <div class="nav1">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                        <i class="fas fa-graduation-cap"><span class="titile-color">The Educational Arena </span></i>
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_pdf">Upload a PDF</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_books">Upload a Book</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#login">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#signup">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile_details">Profile</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="login_main_banner">
+        
+        <div class="login_main">
+            <form>
+                <h3>Login window</h3>
+                <input type="email" class="form-control" placeholder="email..." id="email_field" />
+
+                <input type="password" class="form-control" placeholder="password..." id="password_field" />
+
+                <button class="btn btn-primary1" onclick="login()">Login</button>
+
+                <button type="submit" class="btn btn-primary2" onclick="location.href='#signup'">Create an account</button>
+            </form>
+
+        </div>
+
+        <script type="text/javascript">
+            function login() {
+                var userEmail = document.getElementById("email_field").value;
+
+                var userPass = document.getElementById("password_field").value;
+
+                firebase.auth().signInWithEmailAndPassword(userEmail, userPass).catch(function(error) {
+                    // Handle Errors here        
+                    var errorCode = error.code;
+                    var errorMessage = error.message;
+
+                    window.alert("Error" + " " + errorMessage);
+                    // ...
+                });
+
+
+            }
+
+        </script>
+    </div>
+    </div>
+    <!login end>
+
+
+
+
+    <div class="signup" id="signup">
+
+
+
+        <div class="homepage">
+            <header>
+                <div class="search_my">
+                    <form id="searchForm">
+                        <input id="searchInput" type="search" class="search1" placeholder="search for books or pdfs..">
+                        <button id="searchButton" class="button1" type="submit" onclick="searchResult()"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </header>
+            <div class="nav1">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                        <i class="fas fa-graduation-cap"><span class="titile-color">The Educational Arena </span></i>
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_pdf">Upload a PDF</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_books">Upload a Book</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#login">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#signup">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile_details">Profile</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="signup_main_banner">
+        <div class="signup_main">
+
+            <form>
+
+                <input type="text" class="form-control" id="inputName" placeholder="Full name">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+
+
+
+                <select id="inputGender" class="form-control">
+                    <option selected>Select your gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+
+                <input type="text" class="form-control" id="inputArea" placeholder="Address">
+                <select id="inputCity" class="form-control">
+                    <option selected>Enter your city</option>
+                    <option>Dhaka</option>
+                    <option>Chattagram</option>
+                    <option>Rajshahi</option>
+                    <option>khulna</option>
+                    <option>Barishal</option>
+                    <option>Shylet</option>
+                </select>
+
+                <input type="text" class="form-control" id="inputPhone" placeholder="Phone No.">
+
+
+                <input type="text" class="form-control" id="inputPostalAddress" placeholder="Postal Address">
+
+
+                <button type="submit" class="btn btn-primary2" onclick="signup()">Sign Up</button>
+            </form>
+        </div>
+
+        <script type="text/javascript">
+            function signup() {
+
+                var userName = document.getElementById("inputName").value;
+
+                var userEmail = document.getElementById("inputEmail").value;
+
+                var userPass = document.getElementById("inputPassword").value;
+
+                var userArea = document.getElementById("inputArea").value;
+                var userGender = document.getElementById("inputGender").value;
+
+                var userCity = document.getElementById("inputCity").value;
+
+                var userPostalAddress = document.getElementById("inputPostalAddress").value;
+
+                var userPhone = document.getElementById("inputPhone").value;
+
+
+
+
+
+                if (userName.length < 10) {
+                    window.alert("username is too small");
+                } else if (userCity === "Enter your city") {
+                    window.alert("city is not defined");
+                } else if (userGender === "Select your gender") {
+                    window.alert("Gender is not defined");
+                } else if (userArea.length < 2) {
+                    window.alert("Area is not defined");
+                } else if (userPhone.length < 11) {
+                    window.alert("invalid number");
+                } else if (userPostalAddress.length < 1) {
+                    window.alert("invalid postal address");
+                } else {
+
+                    firebase.auth().createUserWithEmailAndPassword(userEmail, userPass)
+                        .then(function(user) {
+                            var user = firebase.auth().currentUser;
+                            var uid = user.uid;
+                            console.log(uid);
+                            var ref = firebase.database().ref().child("user");
+                            var data = {
+                                name: userName,
+                                email: userEmail,
+                                password: userPass,
+                                area: userArea,
+                                gender: userGender,
+                                phone: userPhone,
+                                postaladdress: userPostalAddress,
+                                city: userCity,
+                                id: user.uid
+                            }
+                            ref.child(uid).set(data).then(function(ref) { //use 'child' and 'set' combination to save data in your own generated key
+                                console.log("Saved");
+                                $location.path('/profile');
+                            }, function(error) {
+                                console.log(error);
+                            });
+                        })
+                        .catch(function(error) {
+                            var errorCode = error.code;
+                            var errorMessage = error.message;
+                            if (errorCode == 'auth/weak-password') {
+                                alert('The password is too weak.');
+                            } else if (errorCode == 'auth/email-already-in-use') {
+                                alert('The email is already taken.');
+                            } else if (errorCode == 'auth/weak-password') {
+                                alert('Password is weak');
+                            } else {
+                                alert(errorMessage);
+                            }
+                            console.log(error);
+                        });
+
+                }
+
+            }
+
+        </script>
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+    <!signup end>
+    
+    <div class="profile" id="profile_details">
+
+
+
+        <div class="homepage">
+            <header>
+                <div class="search_my">
+                    <form id="searchForm">
+                        <input id="searchInput" type="search" class="search1" placeholder="search for books or pdfs..">
+                        <button id="searchButton" class="button1" type="submit" onclick="searchResult()"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </header>
+            <div class="nav1">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                        <i class="fas fa-graduation-cap"><span class="titile-color">The Educational Arena </span></i>
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_pdf">Upload a PDF</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_books">Upload a Book</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#login">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#signup">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile_details">Profile</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        
+        <div class="profile_main_banner">
+        <div class="profile_main">
+
+            <h1>Welcome to educational Arena</h1>
+
+            <h4 id="name">Name :</h4>
+            <h4 id="email">Email :</h4>
+            <h4 id="password">Password :</h4>
+            <h4 id="phone">Phone no :</h4>
+            <h4 id="sex">Sex :</h4>
+            <h4 id="area">Area :</h4>
+            <h4 id="city">City :</h4>
+            <h4 id="zip">Postal address :</h4>
+
+
+            <button type="submit" class="btn btn-primary" onclick="logout()">Logout</button>
+        </div>
+
+
+        <script type="text/javascript">
+            function profile_update(username, email, password, gender, area, city, phone, postaladdress) {
+
+                document.getElementById("name").innerHTML = "Name :" + username;
+
+                document.getElementById("email").innerHTML = "Email: " + email;
+
+                document.getElementById("password").innerHTML = "Password: " + password;
+
+                document.getElementById("sex").innerHTML = "Sex: " + gender;
+
+                document.getElementById("area").innerHTML = "Area: " + area;
+
+                document.getElementById("city").innerHTML = "City: " + city;
+
+                document.getElementById("phone").innerHTML = "Phone: " + phone;
+
+                document.getElementById("zip").innerHTML = "Postaladdress:" + postaladdress;
+
+                console.log(username + email + password + gender);
+
+
+            }
+
+
+
+
+
+
+
+
+            function logout() {
+
+                firebase.auth().signOut().then(function() {
+                    // Sign-out successful.
+
+
+                    document.getElementById("login").style.display = 'block';
+                    document.getElementById("signup").style.display = 'block';
+                    document.getElementById("profile_details").style.display = 'none';
+                    window.alert("logout successful");
+
+                }).catch(function(error) {
+                    // An error happened.
+                    window.alert("not");
+                });
+
+                //document.getElementById("email_field").value ="email...";
+                //document.getElementById("password_field").value ="password...";
+
+            }
+
+        </script>
+        </div>
+    </div>
+    <!profile ends>
+
+    
+    <div class="upload_books" id="upload_books">
+
+
+        <div class="homepage">
+            <header>
+                <div class="search_my">
+                    <form id="searchForm">
+                        <input id="searchInput" type="search" class="search1" placeholder="search for books or pdfs..">
+                        <button id="searchButton" class="button1" type="submit" onclick="searchResult()"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </header>
+            <div class="nav1">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                        <i class="fas fa-graduation-cap"><span class="titile-color">The Educational Arena </span></i>
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_pdf">Upload a PDF</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_books">Upload a Book</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#login">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#signup">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile_details">Profile</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="upload_books_main_banner">
+        <div class="upload_books_main">
+
+            <!-- Search form -->
+            <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+                <input id="book_name" class="form-control" type="text" placeholder="Enter Book Name..." aria-label="Search">
+            </div>
+            <!-- Search form -->
+            <div class="md-form active-purple active-purple-2 mb-3">
+                <input id="book_edition" class="form-control" type="text" placeholder="Enter Edition..." aria-label="Search">
+            </div>
+            <!-- Search form -->
+            <div class="md-form active-cyan active-cyan-2 mb-3">
+                <input id="book_writer" class="form-control" type="text" placeholder="Enter Writer's name..." aria-label="Search">
+            </div>
+
+            <select id="book_sell" class="md-form active-purple-2 mb-3" searchable="Enter selling type...">
+                <option selected>Enter selling type...</option>
+                <option value="1">On rent</option>
+                <option value="2">Donate</option>
+                <option value="3">Permanently Sell</option>
+            </select>
+
+            <!-- Search form -->
+            <div class="md-form active-pink-2 mb-3">
+                <input id="book_price" class="form-control" type="text" placeholder="Price(not needed for Donate)" aria-label="Search">
+            </div>
+            <!-- Search form -->
+            <form>
+                <div class="form-group md-form active-cyan-2 mb-3">
+                    <label for="book_img">Enter a picture of the book</label>
+                    <input type="file" class="form-control-file" id="book_img">
+                </div>
+            </form>
+
+
+            <!-- Search form -->
+            <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+                <input id="book_location" class="form-control" type="text" placeholder="Enter current location..." aria-label="Search">
+            </div>
+
+            <!-- Search form -->
+            <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+                <input id="book_phone" class="form-control" type="text" placeholder="Enter phone no. ..." aria-label="Search">
+            </div>
+
+            <button id="upload_book" type="submit" class="btn btn-primary" onclick="upload_book()">Upload</button>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <script type="text/javascript">
+            function upload_book() {
+
+                var book_name = document.getElementById("book_name").value;
+                var book_edition = document.getElementById("book_edition").value;
+                var book_writer = document.getElementById("book_writer").value;
+                var book_sell = document.getElementById("book_sell").value;
+                var book_price = document.getElementById("book_price").value;
+                var book_img = document.getElementById("book_img").value;
+                var book_location = document.getElementById("book_location").value;
+                var book_phone = document.getElementById("book_phone").value;
+
+
+                var user = firebase.auth().currentUser;
+
+                var uid = user.uid;
+
+                var email = user.email;
+
+
+
+                console.log(uid + " " + email);
+
+
+                if (uid !== null) {
+
+                    writeNewPostBook(uid, email, book_name, book_edition, book_writer, book_sell, book_price, book_img, book_location, book_phone);
+                    window.alert("successfully uploaded");
+                } else {
+                    //can't upload book
+                    window.alert("Please login to post!");
+                }
+
+            }
+
+
+
+
+
+            function writeNewPostBook(uid, email, book_name, book_edition, book_writer, book_sell, book_price, book_img, book_location, book_phone) {
+                // A post entry.
+                console.log(uid + " " + email);
+                console.log("called");
+                var postData = {
+                    email: email,
+                    uid: uid,
+                    book_name: book_name,
+                    book_edition: book_edition,
+                    book_writer: book_writer,
+                    book_sell: book_sell,
+                    book_price: book_price,
+                    book_img: book_img,
+                    book_location: book_location,
+                    book_phone: book_phone
+                };
+
+                //Get a key for a new Post.
+                var newPostKey = firebase.database().ref().child('uploadbooks').push().key;
+                console.log(newPostKey);
+
+                // Write the new post's data simultaneously in the posts list and the user's post list.
+                var updates = {};
+
+                updates['/uploadbooks/' + newPostKey] = postData;
+
+                return firebase.database().ref().update(updates);
+            }
+
+        </script>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <!end of upload books>
+
+
+
+    <div class="upload_pdf" id="upload_pdf">
+
+
+        <div class="homepage">
+            <header>
+                <div class="search_my">
+                    <form id="searchForm">
+                        <input id="searchInput" type="search" class="search1" placeholder="search for books or pdfs..">
+                        <button id="searchButton" class="button1" type="submit" onclick="searchResult()"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </header>
+            <div class="nav1">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                        <i class="fas fa-graduation-cap"><span class="titile-color">The Educational Arena </span></i>
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_pdf">Upload a PDF</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_books">Upload a Book</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#login">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#signup">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile_details">Profile</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="upload_pdf_main_banner">
+        <div class="upload_pdf_main">
+
+            <!-- Search form -->
+            <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+                <input id="pdf_name" class="form-control" type="text" placeholder="Enter PDF Name..." aria-label="Search">
+            </div>
+            <!-- Search form -->
+            <div class="md-form active-purple active-purple-2 mb-3">
+                <input id="pdf_edition" class="form-control" type="text" placeholder="Enter Edition..." aria-label="Search">
+            </div>
+            <!-- Search form -->
+            <div class="md-form active-cyan active-cyan-2 mb-3">
+                <input id="pdf_writer" class="form-control" type="text" placeholder="Enter Writer's name..." aria-label="Search">
+            </div>
+
+
+            <!-- Search form -->
+            <div class="md-form active-pink-2 mb-3">
+                <input id="pdf_get" class="form-control" type="text" placeholder="How did you get the PDF?" aria-label="Search">
+            </div>
+            <!-- Search form -->
+            <form>
+                <div class="form-group md-form active-cyan-2 mb-3">
+                    <label for="pdf_browse">Browse the PDF</label>
+                    <input type="file" class="form-control-file" id="pdf_browse">
+                </div>
+            </form>
+            <!-- Search form -->
+            <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+                <input id="pdf_location" class="form-control" type="text" placeholder="Enter current location..." aria-label="Search">
+            </div>
+
+            <!-- Search form -->
+            <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+                <input id="pdf_phone" class="form-control" type="text" placeholder="Enter phone no. ..." aria-label="Search">
+            </div>
+
+            <button type="submit" class="btn btn-primary" onclick="upload_pdf()">Upload</button>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <script type="text/javascript">
+            function upload_pdf() {
+
+                var pdf_name = document.getElementById("pdf_name").value;
+                var pdf_edition = document.getElementById("pdf_edition").value;
+                var pdf_writer = document.getElementById("pdf_writer").value;
+                var pdf_get = document.getElementById("pdf_get").value;
+                var pdf_browse = document.getElementById("pdf_browse").value;
+                var pdf_location = document.getElementById("pdf_location").value;
+                var pdf_phone = document.getElementById("pdf_phone").value;
+
+
+                var user = firebase.auth().currentUser;
+
+                var uid = user.uid;
+
+                var email = user.email;
+
+
+
+                console.log(uid + " " + email + pdf_name + pdf_edition + pdf_writer + pdf_get + pdf_browse + pdf_location + pdf_phone);
+
+
+                if (uid !== null) {
+
+                    writeNewPostPdf(uid, email, pdf_name, pdf_edition, pdf_writer, pdf_get, pdf_browse, pdf_location, pdf_phone);
+                    window.alert("successfully uploaded");
+                } else {
+                    //can't upload book
+                    window.alert("Please login to post!");
+                }
+
+            }
+
+
+
+
+
+
+
+
+
+            function writeNewPostPdf(uid, email, pdf_name, pdf_edition, pdf_writer, pdf_get, pdf_browse, pdf_location, pdf_phone) {
+                // A post entry.
+                var postData = {
+                    email: email,
+                    uid: uid,
+                    pdf_name: pdf_name,
+                    pdf_edition: pdf_edition,
+                    pdf_writer: pdf_writer,
+                    pdf_get: pdf_get,
+                    pdf_browse: pdf_browse,
+                    pdf_location: pdf_location,
+                    pdf_phone: pdf_phone
+                };
+
+                // Get a key for a new Post.
+                var newPostKey = firebase.database().ref().child('uploadpdfs').push().key;
+
+                // Write the new post's data simultaneously in the posts list and the user's post list.
+                var updates = {};
+
+                updates['/uploadpdfs/' + newPostKey] = postData;
+
+                return firebase.database().ref().update(updates);
+            }
+
+        </script>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+<!-- uload pdf ends-->
+
+
+<div class="search_result" id="search_result">
+    
+    
+    
+    
+        <div class="homepage">
+            <header>
+                <div class="search_my">
+                    <form id="searchForm">
+                        <input id="searchInput" type="search" class="search1" placeholder="search for books or pdfs..">
+                       <button id="searchButton" class="button1" type="submit" onclick="searchResult()"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </header>
+            <div class="nav1">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                        <i class="fas fa-graduation-cap"><span class="titile-color">The Educational Arena </span></i>
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_pdf">Upload a PDF</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#upload_books">Upload a Book</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#login">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#signup">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile_details">Profile</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="search_result_main" id="search_result_main">
+            
+            
+            <main role="main" class="container">
+      
+
+      <div class="my-3 p-3 bg-white rounded box-shadow">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
+        <div class="media text-muted pt-5">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark" id="ssh1"></strong>
+            <h5 id="sh1"></h5>
+          </p>
+        </div>
+        <div class="media text-muted pt-5">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark" id="ssh2"></strong>
+            <h5 id="sh2"></h5>
+          </p>
+        </div>
+        <div class="media text-muted pt-5">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark" id="ssh3"></strong>
+            <h5 id="sh3"></h5>
+          </p>
+        </div>
+        
+        <div class="media text-muted pt-5">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark" id="ssh4"></strong>
+            <h5 id="sh4"></h5>
+          </p>
+        </div>
+        
+        <div class="media text-muted pt-5">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark" id="ssh5"></strong>
+            <h5 id="sh5"></h5>
+          </p>
+        </div>
+        
+        
+         <div class="media text-muted pt-5">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark" id="ssh6"></strong>
+            <h5 id="sh6"></h5>
+          </p>
+        </div>
+        
+        <div class="media text-muted pt-5">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark" id="ssh7">@username</strong>
+            <h5 id="sh7"></h5>
+          </p>
+        </div>
+        
+        
+       
+      </div>
+            
+            </main>      
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.0.0/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="woocommerce-FlexSlider-d04ac5a/jquery.flexslider.js"></script>
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBRemEDvtYkJu3RWRq2lpXsYPNIfh0y4Vs",
+            authDomain: "arena6699-3743b.firebaseapp.com",
+            databaseURL: "https://arena6699-3743b.firebaseio.com",
+            projectId: "arena6699-3743b",
+            storageBucket: "arena6699-3743b.appspot.com",
+            messagingSenderId: "143427149748"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+
+    <script src="index.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
